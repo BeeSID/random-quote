@@ -1,0 +1,33 @@
+/* QuoteCard.css */
+
+.quote-card {
+    background: #1e1e1e;
+    border-radius: 28px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 48px;
+    color: #f8c548; /* Gold text */
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    box-shadow: 0 14px 30px rgba(248, 197, 72, 0.3);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .quote-card:hover {
+    box-shadow: 0 20px 48px rgba(248, 197, 72, 0.5);
+  }
+  
+  .quote-content {
+    margin-bottom: 32px;
+  }
+  
+  .quote-author {
+    text-align: right;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #f1c40f;
+    letter-spacing: 1px;
+    user-select: none;
+  }
+  
